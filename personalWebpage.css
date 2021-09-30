@@ -2,40 +2,38 @@
     background-color: steelblue;
 }
 
-.aboutMe{
-    
+.aboutMe {
     background: rgb(73, 3, 50);
     background-image: url("https://d3mvlb3hz2g78.cloudfront.net/wp-content/uploads/2013/08/thumb_720_450_dreamstime_xxl_17015612-Custom.jpg");
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-.colorred{
+.colorred {
     background-color: red;
 }
 
-h1{
+h1 {
     text-align: center;
     text-transform: uppercase;
     text-shadow: 1px 1px 1px rgba(81, 82, 76, .2), 3px 3px 5px rgba(81, 82, 76, .5), 5px 5px 7px rgba(81, 82, 76, .7);
 }
 
-button{
+button {
     border: none;
     background: none;
     outline: none;
     height: 100%;
-   padding: 20px 20px;
+    padding: 20px 20px;
 }
 
-
-#container{
+#container {
     margin: 20px auto;
     max-width: 400px;
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 100%;
     float: left;
     background: rgba(15, 175, 255, .7);
@@ -44,7 +42,7 @@ button{
 }
 
 .card1 {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 90%;
     float: left;
     background: rgba(15, 175, 255, .7);
@@ -54,74 +52,106 @@ button{
     margin: 20px auto
 }
 
-.Troy{
+.card2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 90%;
+    float: left;
+    background: rgba(15, 175, 255, .7);
+    border-radius: 20%;
+    text-align: left;
+    padding: 20px 20px;
+    margin: 20px auto
+}
+.card3 .progLang{
+    text-align: center;
+}
+
+.card3{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 40%;
+    float: left;
+    background: rgba(15, 175, 255, .7);
+    border-radius: 20%;
+    text-align: left;
+    padding: 20px 20px;
+    margin: 20px auto
+}
+
+.Troy {
     margin: 8px auto;
     border-radius: 10%;
 }
 
 .inline-block {
     display: inline-block;
- }
-
-.tampagame{
-    margin: 8px auto;
-    border-radius: 10%;
 }
-.tampagame2{
+
+.tampagame {
     margin: 8px auto;
     border-radius: 10%;
 }
 
-#strip{
+.tampagame2 {
+    margin: 8px auto;
+    border-radius: 10%;
+}
+
+#strip {
     background: rgb(212, 207, 207);
-    text-align:center;
+    text-align: center;
     height: 50px;
 }
 
 button:hover {
-    color:white;
-    background:steelblue;
+    color: white;
+    background: steelblue;
 }
 
-.resourceSites a{
+.resourceSites a {
     color: black;
     text-decoration: none;
 }
-.resourceSites a:visited{
-    color:black;
+
+.resourceSites a:visited {
+    color: black;
 }
-.resourceSites a:hover{
-    color:white;
-    background:steelblue;
+
+.resourceSites a:hover {
+    color: white;
+    background: steelblue;
 }
+
 /* about button */
-.about a{
+
+.about a {
     color: black;
     text-decoration: none;
 }
 
-.about a:visited{
-    color:black;
+.about a:visited {
+    color: black;
 }
-.about a:hover{
-    color:white;
-    background:steelblue;
+
+.about a:hover {
+    color: white;
+    background: steelblue;
 }
- /* willing to work button */
- .willingWork a{
-    color:black;
+
+/* willing to work button */
+
+.willingWork a {
+    color: black;
     text-decoration: none;
 }
 
-.willingWork a:visted{
-    color:black;
+.willingWork a:visted {
+    color: black;
 }
 
-.willingWork a:hover{
-    color:white;
-    background:steelblue;
+.willingWork a:hover {
+    color: white;
+    background: steelblue;
 }
-
 
 .intro {
     text-align: center;

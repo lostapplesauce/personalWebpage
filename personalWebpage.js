@@ -6,10 +6,10 @@ var color = document.querySelector('.color');
 //    document.body.style.backgroundColor = color; 
 // }
 
-color.addEventListener('click',function(){
-    
+color.addEventListener('click', function () {
+
    document.body.classList.toggle("colorred");
-     
+
 });
 
 
