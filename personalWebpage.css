@@ -3,10 +3,11 @@
 }
 
 .aboutMe {
-    background: rgb(73, 3, 50);
+    background: #490332;
     background-image: url("https://d3mvlb3hz2g78.cloudfront.net/wp-content/uploads/2013/08/thumb_720_450_dreamstime_xxl_17015612-Custom.jpg");
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
 }
 
 .colorred {
