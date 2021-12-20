@@ -21,7 +21,7 @@ hamburger.addEventListener("click", mobileMenu);
 function mobileMenu() {
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
-}
+} 
 
 const navLink = document.querySelectorAll(".nav-link");
 
