@@ -1,0 +1,235 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: steelblue;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgba(81, 82, 76, .2), 3px 3px 5px rgba(81, 82, 76, .5), 5px 5px 7px rgba(81, 82, 76, .7);
+}
+
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-size: 12px;
+}
+
+.aboutMe {
+    background: #490332;
+    background-image: url("https://d3mvlb3hz2g78.cloudfront.net/wp-content/uploads/2013/08/thumb_720_450_dreamstime_xxl_17015612-Custom.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.colorred {
+    background-color: red;
+}
+
+button {
+    border: none;
+    background: none;
+    outline: none;
+    height: 100%;
+    padding: 20px 20px;
+}
+
+#container {
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    float: left;
+    background: rgba(15, 175, 255, .7);
+    border-radius: 10%;
+    text-align: center;
+}
+
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 90%;
+    float: left;
+    background: rgba(15, 175, 255, .7);
+    border-radius: 20%;
+    text-align: center;
+    padding: 20px 20px;
+    margin: 20px auto
+}
+
+.card2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 90%;
+    float: left;
+    background: rgba(15, 175, 255, .7);
+    border-radius: 20%;
+    text-align: left;
+    padding: 20px 20px;
+    margin: 20px auto
+}
+.card3 .progLang{
+    text-align: center;
+}
+
+.languages{
+    text-align: center;
+}
+
+.card3{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 40%;
+    float: left;
+    background: rgba(15, 175, 255, .7);
+    border-radius: 20%;
+    text-align: left;
+    padding: 20px 20px;
+    margin: 20px auto
+}
+
+.Troy {
+    margin: 8px auto;
+    border-radius: 10%;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.tampagame {
+    margin: 8px auto;
+    border-radius: 10%;
+}
+
+.tampagame2 {
+    margin: 8px auto;
+    border-radius: 10%;
+}
+
+/* hamburger menu */
+.hamburger{
+    display: none;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+/* nav strip */
+
+.header{
+    border-bottom: 1px solid #E2E8f0
+}
+
+#strip {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background: rgb(212, 207, 207);
+    text-align: center;
+    height: 50px;
+}
+
+button:hover {
+    color: white;
+    background: steelblue;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 5rem;
+}
+
+/* nav buttons on top  */
+
+.nav-btn a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-btn a:visited {
+    color: black;
+}
+
+.nav-btn a:hover {
+    color: white;
+    background: steelblue;
+}
+
+.intro {
+    text-align: center;
+}
+/* setting max width for activation of hamburger menu */
+@media only screen and (max-width: 768px){
+    .nav-menu {
+        position: fixed;
+        right: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        right: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+     }
+     
+     .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+     }
+     
+     .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+     }
+}
+
