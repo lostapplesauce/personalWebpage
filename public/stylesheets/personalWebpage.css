@@ -46,10 +46,8 @@ button {
   padding: 20px 20px;
 }
 
-#container {
-  margin: 20px auto;
-  max-width: 400px;
-}
+
+
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -65,6 +63,23 @@ div .card {
   border-radius: 20%;
 }
 
+/* home page */
+.home{
+    background-image: url("https://images.unsplash.com/photo-1561356762-3dfb83f1869f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-rows: [row1-start] 33% [row1-end row2-start] 66% [row2-end row3-start] 99% [row3-end];
+}
+
+#troyBox {
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+/* ---------------------------------------------------------------- */
+
 /* about me page */
 div .aboutCard {
   display: flex;
@@ -79,6 +94,10 @@ div .aboutCard {
 }
 
 .aboutMe {
+  display: grid;
+  grid-template-rows: [row1-start] 20% [row1-end row2-start] 30% [row2-end row3-start] 49% [row3-end];
+
+
   background: #490332;
   background-image: url("https://d3mvlb3hz2g78.cloudfront.net/wp-content/uploads/2013/08/thumb_720_450_dreamstime_xxl_17015612-Custom.jpg");
   background-repeat: no-repeat;
@@ -89,6 +108,12 @@ div .aboutCard {
 .aboutCard p {
   justify-content: center;
 }
+
+#aboutBox {
+  margin: 20px auto;
+  max-width: 400px;
+}
+
 
 /* ----------------------------------------- */
 
@@ -136,6 +161,11 @@ div .aboutCard {
   text-align: center;
   padding: 20px 20px;
   margin: 20px auto;
+}
+
+#workBox {
+  margin: 20px auto;
+  max-width: 400px;
 }
 
 /* ----------------------------------------- */
@@ -276,6 +306,7 @@ button:hover {
 
 .icons {
   display: block;
+  padding-right: 0.5em;
   right: 1em;
 }
 
