@@ -2,19 +2,23 @@
 
 var color = document.querySelector('#color');
 
-// function bgColor(color){
-//    document.body.style.backgroundColor = color; 
-// }
+function random(number) {
+  return Math.floor(Math.random() * number);
+}
+function randomColor() {
+  return "rgb(" + random(255) + "," + random(255) + "," + random(255) + ")";
+}
 
 color.addEventListener('click', function () {
-
-   document.body.classList.toggle("colorred");
+    //Changes background color of body on all pages
+    document.body.style.backgroundColor = randomColor();
 
 });
 
 
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
+const body = document.querySelector("body");
 
 hamburger.addEventListener("click", mobileMenu);
 
@@ -31,6 +35,5 @@ function closeMenu() {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
 }
-
 
 
