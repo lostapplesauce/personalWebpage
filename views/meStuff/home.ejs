@@ -24,15 +24,27 @@
         <h3 class="my-3">Nice to see you visiting my site</h3>
         <h4>&Dagger;</h4>
       </div>
-    </div>
 
-    <div id="troyBox">
       <div class="card1">
         <!-- add a pick your adventure mini game here -->
         <p>
           Feel free to explore the area and see the various stuff on this page.
         </p>
       </div>
+    </div>
+    <div id="troyBox">
+    <div class="m-4">
+      <form action="/" method="POST" class="mb-3" id="reviewForm">
+        <div class="mb-2">
+        <label class="form-label" for="body" style="color:aqua;">What do you think?</label>
+        <textarea class="form-control"name="review[body]" id="" cols="30" rows="5"></textarea>
+        </div>
+        <div class="mb-2">
+          <label for="rating" style="color:aqua;">Rating</label>
+          <input class="form-range" type="range" min="1" max="5" name="review[rating]" id="rating">
+        </div>
+        <button class="btn btn-success">Submit</button>
+      </form>
     </div>
   </div>
 </div>

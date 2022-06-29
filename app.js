@@ -2,6 +2,7 @@ const express = require("express");
 const path = require("path");
 const ejsMate = require("ejs-mate");
 const methodOverride = require("method-override");
+const catchAsync  = require("./utils/catchAsync");
 
 const app = express();
 
@@ -21,6 +22,10 @@ app.get("/aboutMe", (req, res) => {
 app.get("/workDesire", (req, res) => {
   res.render("./meStuff/workDesire");
 });
+
+app.post('/', catchAsync(async (req, res) => {
+  res.send('it happened');
+}));
 
 app.listen(3002, () => {
   console.log("listening on port 3002");

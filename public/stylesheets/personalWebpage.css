@@ -69,14 +69,16 @@ div .card {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    display: grid;
-    grid-template-rows: [row1-start] 33% [row1-end row2-start] 66% [row2-end row3-start] 99% [row3-end];
 }
 
 #troyBox {
   margin: 20px auto;
   max-width: 400px;
 }
+
+/* #reviewForm {
+    add something here soon enough
+} */
 
 /* ---------------------------------------------------------------- */
 
